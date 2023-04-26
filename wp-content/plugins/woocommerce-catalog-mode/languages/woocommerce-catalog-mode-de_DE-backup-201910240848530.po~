@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Catalog\n"
+"POT-Creation-Date: 2016-01-11 15:15+0100\n"
+"PO-Revision-Date: 2016-01-11 15:16+0100\n"
+"Last-Translator: Daniel Barenkamp\n"
+"Language-Team: DB-Dzine <support@db-dzine.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/redux-framework\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux-extensions\n"
+
+#: admin/options-init.php:90
+msgid "Information"
+msgstr "Informationen"
+
+#: admin/options-init.php:91
+msgid "<p>Need support? Please use the comment function on codecanyon.</p>"
+msgstr ""
+"<p>Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf "
+"Codecanyon.</p>"
+
+#: admin/options-init.php:113
+msgid "Catalog Mode"
+msgstr "Katalog Modus"
+
+#: admin/options-init.php:115
+msgid "Need support? Please use the comment function on codecanyon."
+msgstr ""
+"Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf Codecanyon."
+
+#: admin/options-init.php:120
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/options-init.php:128 admin/options-init.php:200
+#: admin/options-init.php:255
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/options-init.php:129
+msgid "Enable catalog mode to use the options below"
+msgstr "Aktiviere den Katalog-Modus um die Optionen unten benutzen zu können"
+
+#: admin/options-init.php:135
+msgid "Remove add to cart button"
+msgstr "Entferne den Warenkorb-Button"
+
+#: admin/options-init.php:136
+msgid "Removes the add to cart button on single product and category pages."
+msgstr ""
+"Entfernt den „Zum Warenkorb hinzufügen“-Button auf Produkt- und "
+"Kategorieseiten."
+
+#: admin/options-init.php:141
+msgid "Remove price"
+msgstr "Entferne den Preis"
+
+#: admin/options-init.php:142
+msgid "Removes price on single product and category pages."
+msgstr "Entfernt den Preis auf Produkt- und Kategorieseiten."
+
+#: admin/options-init.php:147
+msgid "Redirect Cart / Checkout Page"
+msgstr "Warenkorb und Kassen-Seiten Umleiten"
+
+#: admin/options-init.php:148
+msgid "Redirects the cart and checkout page to your home page."
+msgstr "Richtet eine Weiterleitung für die Warenkorb und Kassen-Seite ein."
+
+#: admin/options-init.php:153
+msgid "Apply for users"
+msgstr "Anwenden auf Nutzer"
+
+#: admin/options-init.php:154
+msgid "Which user group should be affected by the catalog mode."
+msgstr "Welche Nutzer sollen betroffen sein?"
+
+#: admin/options-init.php:156
+msgid "All"
+msgstr "Alle"
+
+#: admin/options-init.php:157
+msgid "Only NOT logged in"
+msgstr "Nur „NICHT“ eingeloggte User"
+
+#: admin/options-init.php:158
+msgid "Only Logged in"
+msgstr "Nur eingeloggte User"
+
+#: admin/options-init.php:165
+msgid "Exclusions"
+msgstr "Ausnahmen"
+
+#: admin/options-init.php:166
+msgid ""
+"With the below settings you can exclude products / categories so that the "
+"price and add to cart will be shown."
+msgstr "Der Preis und Warenkorb-Button wird trotzdem angezeigt."
+
+#: admin/options-init.php:175
+msgid "Exclude Product Categories"
+msgstr "Ausnahmen für Produktkategorien"
+
+#: admin/options-init.php:176
+msgid "Which product categories should be excluded by the catalog mode."
+msgstr "Welche Produktkategorien sollen nicht betroffen werden?"
+
+#: admin/options-init.php:185
+msgid "Exclude Products "
+msgstr "Ausnahmen für Produkte"
+
+#: admin/options-init.php:186
+msgid "Which products should be excluded by the catalog mode."
+msgstr "Welche Produkte sollen nicht betroffen werden?"
+
+#: admin/options-init.php:192
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: admin/options-init.php:193
+msgid ""
+"Replace the add to cart button on category / archive / tag pages with your "
+"own button."
+msgstr ""
+"Ersetzt den Warenkorb-Button auf Kategorie, Archiv und Tag-Seiten durch "
+"einen eigenen."
+
+#: admin/options-init.php:201
+msgid "Enables the custom button on loop pages."
+msgstr "Aktivere den eigenen Button auf Schleifen-Seiten"
+
+#: admin/options-init.php:206 admin/options-init.php:261
+msgid "Button Text"
+msgstr "Button Text"
+
+#: admin/options-init.php:207 admin/options-init.php:262
+msgid "Text inside the custom button."
+msgstr "Text im Button"
+
+#: admin/options-init.php:213 admin/options-init.php:268
+msgid "Button Action"
+msgstr "Button Aktion"
+
+#: admin/options-init.php:214 admin/options-init.php:269
+msgid "What happens when the User clicks the button."
+msgstr "Was passiert wenn der Nutzer den Button klickt."
+
+#: admin/options-init.php:216
+msgid "Go to product page"
+msgstr "Gehe zur Produktseite"
+
+#: admin/options-init.php:217 admin/options-init.php:272
+msgid "Go to custom URL"
+msgstr "Gehe zu URL"
+
+#: admin/options-init.php:224 admin/options-init.php:279
+msgid "Button custom URL"
+msgstr "Eigene URL"
+
+#: admin/options-init.php:225 admin/options-init.php:280
+msgid "The URL where the user will be sent to when he clicked the button."
+msgstr "URL wo der Nutzer hingeleitet wird, falls er auf den Button klickt."
+
+#: admin/options-init.php:232
+msgid "Button custom URL target"
+msgstr "Button URL-Target"
+
+#: admin/options-init.php:233 admin/options-init.php:288
+msgid "The target attribute of the link."
+msgstr "Das Ziel-Attribut des Links."
+
+#: admin/options-init.php:235 admin/options-init.php:290
+msgid "_self (same Window)"
+msgstr "_self (selbes Fenster)"
+
+#: admin/options-init.php:236 admin/options-init.php:291
+msgid "_blank (new Window)"
+msgstr "_blank (neues Fenster)"
+
+#: admin/options-init.php:237 admin/options-init.php:292
+msgid "_parent (parent Window)"
+msgstr "_parent (Eltern-Fenster)"
+
+#: admin/options-init.php:238 admin/options-init.php:293
+msgid "_top (full body of the Window)"
+msgstr "_top (ganzes Fenster)"
+
+#: admin/options-init.php:247
+msgid "Single Product Pages"
+msgstr "Einzelprodukt-Seiten"
+
+#: admin/options-init.php:248
+msgid "Replace the add to cart button on single product pages with your own."
+msgstr ""
+"Ersetzt den Warenkorb-Button auf Einzelprodukt-Seiten durch Ihren eigenen."
+
+#: admin/options-init.php:256
+msgid "Enables the single product custom button."
+msgstr "Aktiviert den Einzelprodukt-Seiten Button"
+
+#: admin/options-init.php:271
+msgid "Open enquiry form"
+msgstr "Öffne ein Kontaktformular"
+
+#: admin/options-init.php:287
+msgid "Custom Button URL target"
+msgstr "Ziel der URL"
+
+#: admin/options-init.php:301
+msgid "Enquiry Title"
+msgstr "Kontaktformular Titel"
+
+#: admin/options-init.php:302
+msgid "The title of the enquiry Modal"
+msgstr "Der Titel des Kontaktformulars."
+
+#: admin/options-init.php:309
+msgid "Enquiry contact form"
+msgstr "Kontaktformular"
+
+#: admin/options-init.php:310
+msgid "Please insert your contact form shortcode."
+msgstr "Shortcode des Kontaktformulars."
+
+#: admin/options-init.php:316
+msgid "Enquiry Modal size"
+msgstr "Größe des Pop-Up-Fensters"
+
+#: admin/options-init.php:317
+msgid "Size of the Enquiry modal."
+msgstr "Die Größe des Pop-Up-Fensters"
+
+#: admin/options-init.php:319
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/options-init.php:320
+msgid "Small"
+msgstr "Klein"
+
+#: admin/options-init.php:321
+msgid "Large"
+msgstr "Groß"
+
+#: admin/options-init.php:331
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/options-init.php:332
+msgid "Custom stylesheet / javascript."
+msgstr "Eigenes Stylesheet / Javascript."
+
+#: admin/options-init.php:339
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: admin/options-init.php:340
+msgid "Add some stylesheet if you want."
+msgstr "Gib dem Plugin dein eigenes Styling."
+
+#: admin/options-init.php:345
+msgid "Custom JS"
+msgstr "Eigenes JS"
+
+#: admin/options-init.php:346
+msgid "Add some javascript if you want."
+msgstr "Gib dem Plugin eigene Funktionen."
+
+#: woocommerce-catalog-mode.php:82
+msgid ""
+"WooCommerce Catalog Mode requires the WooCommerce plugin. Please install or "
+"activate WooCommerce!"
+msgstr "WooCommerce Catalog Mode benötigt das WooCommerce plugin!"
+
+#~ msgid "Loop Button"
+#~ msgstr "Schleifen-Button"
+
+#~ msgid "What happens when the User clicks this button."
+#~ msgstr "Was passiert wenn der Nutzer den Button klickt."

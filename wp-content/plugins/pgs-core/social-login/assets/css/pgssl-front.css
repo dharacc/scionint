@@ -1,0 +1,180 @@
+.pgssl-login-inner {
+	background-color: #ffffff;
+	border: 0px solid #f9f9f9;
+	-webkit-box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 23px rgba(0, 0, 0, 0.1);
+	padding: 0;
+	width: 480px;
+	position: relative;
+	justify-content: center;
+	margin: auto;
+}
+
+#login {
+	background-color: inherit !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: inherit !important;
+	width: inherit !important;
+	position: inherit !important;
+	justify-content: inherit !important;
+}
+
+#pgs_login_form {
+	margin: 0px !important;
+ }
+.pgssl-wplogin-wrapper {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.pgssl-wplogin-label-wrapper {
+	margin-bottom: 5px;
+}
+
+.pgssl-wplogin-icon {
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.pgssl-wplogin-icon:last-child {
+	margin-right: 0;
+}
+
+.pgssl-wplogin-link, .pgssl-wplogin-link:active, .pgssl-wplogin-link:focus, .pgssl-wplogin-link:hover {
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.pgssl-wplogin-link-label {
+	display: none;
+}
+
+.pgssl-wplogin-wrapper-clearing {
+	clear: both;
+}
+
+.pgssl-wplogin-wrapper {
+	text-align: center;
+	padding: 0px 40px;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-label {
+	font-size: 16px;
+	margin: 20px;
+	display: block;
+	font-weight: 600;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-divider {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-divider span {
+	background: #ffffff;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-divider:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	transform: translate(-50%, -50%);
+	height: 1px;
+	content: "";
+	background: #e5e5e5;
+	width: 100%;
+	z-index: 0;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-label-wrapper {
+	margin-bottom: 10px
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link {
+	padding: 12px 0;
+	display: inline-block;
+	border-radius: 3px;
+	min-width: 70px;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link svg {
+	width: 16px;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link-facebook {
+	background: #3B5998;
+	fill: #ffffff;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link-google {
+	background: #4285F4;
+	fill: #ffffff;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link-twitter {
+	background: #1DA1F2;
+	fill: #ffffff;
+}
+
+.pgssl-wplogin-wrapper .pgssl-wplogin-link-linkedin {
+	background: #0077B5;
+	fill: #ffffff;
+}
+
+/*shortcode*/
+.pgssl-shortcode-login-wrapper .pgssl-wplogin-divider {
+	display: none;
+}
+
+.pgssl-shortcode-login-wrapper .pgssl-wplogin-wrapper {
+	text-align: left;
+	padding: 0px;
+}
+
+.pgssl-shortcode-login-wrapper .pgssl-wplogin-label {
+	margin: 0px;
+}
+
+.pgssl-shortcode-login-wrapper .pgssl-wplogin-link {
+	text-align: center;
+}
+
+/*popup*/
+.modal .pgssl-wplogin-link-label {
+	display: block;
+	line-height: 20px;
+}
+
+.modal .pgssl-wplogin-wrapper .pgssl-wplogin-link {
+	display: flex;
+	color: #ffffff;
+	padding: 12px 30px 9px;
+}
+
+.modal .pgssl-wplogin-wrapper .pgssl-wplogin-link svg {
+	margin-right: 10px;
+}
+
+.modal .pgssl-wplogin-wrapper {
+	padding: 0
+}
+
+.modal .pgssl-wplogin-wrapper .pgssl-wplogin-link {
+	min-width: 218px;
+}
+
+/*woocommerce*/
+.woocommerce .pgssl-wplogin-wrapper {
+	padding: 0;
+}
+
+

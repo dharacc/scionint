@@ -1,0 +1,1 @@
+a:5:{s:5:"title";s:12:"Empty Header";s:9:"header_id";s:1:"0";s:6:"topbar";a:1:{s:13:"configuration";s:0:"";}s:4:"main";a:1:{s:13:"configuration";s:0:"";}s:6:"bottom";a:1:{s:13:"configuration";s:0:"";}}

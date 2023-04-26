@@ -1,0 +1,322 @@
+## Version 4.8.0 (Jan 18, 2020)
+* Fixed: CSS Conflict with 'WOOCS - WooCommerce Currency Switcher plugin'.
+* Added: Theme option realted to Wishlist feature in ( CiyaShop Theme Options > WooCommerce > Wishlist ).
+* Updated: Removed the 'YITH WooCommerce Wishlist' plugin dependencies for wishlist feature.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.7.1 (Dec 21, 2020)
+* Fixed: WooCommerce pages assigning issue after demo import.
+* Fixed: Theme option's fields css issue in admin are with New Version of the WordPress.
+* Fixed: Shortcode converting into the text blocks when editing with the front end editor using the WP Bakery.
+* Fixed: HTML tags not saving for 'custom tab' editor while editing the product.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.7.0 (Dec 03, 2020)
+* Fixed: Add option to disable the hover effect for a mobile device, which will disable the double click issue for mobile.
+* Updated: Removed the 'Advance Custom Field plugin dependencies' for custom fields.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.12 (Oct 26, 2020)
+* Updated: Optimize CSS files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.11 (Oct 19, 2020)
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.10 (Oct 14, 2020)
+* Fixed: Added fix for session issue in Admin Panel > Tools > Site Health.
+* Fixed: Fixed social login not working properly.
+* Updated: Implemented new method for Instagram, getting images with Instagram API.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.9 (Aug 31, 2020)
+* Added New theme option to enable/disable social login.
+* Fixed: The first icon is not working in icon picker in shortcodes.
+* Fixed: Counter shortcode turns in text block shortcode in front editor.
+* Updated: Updated language files.
+
+## Version 4.6.8 (Aug 15, 2020)
+* Fixed: Broken header builder for the latest version of the WordPress
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.7 (Aug 01, 2020)
+* Fixed: Broken theme options field for the latest version of the Redux framework plugin.
+* Fixed: Theme options are not working with the latest version of the Redux framework plugin.
+* Updated: introduce new filter for product listing shortcode.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.6 (July 10, 2020)
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.5 (June 10, 2020)
+* Added: 'Header builder' header layout export options.
+* Updated: 'Header builder' WPML support added.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.4 (May 05, 2020)
+* Updated: Mailchimp messages
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.3 (April 15, 2020)
+* Fixed: Fixed code indenting and line spacing
+* Updated: Updated language files.
+* Updated: Improvements in coding standards.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.6.2 (March 16, 2020)
+* Fixed: Fixed code indenting and line spacing
+* Updated: Updated language files.
+* Various other minor improvements and fixes.
+
+## Version 4.6.1 (February 14, 2020)
+* Added: New shortcode, widget and theme options for Instagram images.
+* Added: Implemented new method for Instagram, getting images with Instagram API.
+* Added: Yoast Seo Breadcrumb compatibility.
+* Added: New custom CSS theme options for different views, e.g., mobile, tablet.
+
+## Version 4.6.0 (January 09, 2020)
+* Added: New smart product view feature in the single product page.
+* Added: Smart Image View shortcode.
+* Fixed: Social Icons Settings font issue fixed.
+* Fixed: Hotspot pointer hide issue during the update of the shortcode.
+* Fixed: Lazy load issue in the front editor.
+* Fixed: Kitebox image and content not showing when reaching out to the max number of the item.
+* Fixed: Flat Icon css issue for social icons shortcode.
+* Updated: PHPCS issues, wrong escaping, and bugs related to spacing and code formatting.
+* Updated: FontAwesome updated to 5.12.0
+* Updated: Improvements in coding standards.
+* Various other minor improvements and fixes.
+
+## Version 4.5.6 (December 12, 2019)
+* Fixed: Compatibility with the new version of the YITH Wishlist plugin.
+* Various other minor improvements and fixes.
+
+## Version 4.5.5 (November 25, 2019)
+* Fixed: Minor fix related to datepicker in Banner shortcode not working on WPBAkery Frontend Editor.
+* Fixed: Fixed the header builder issue in WordPress 5.3
+* Fixed: Minor fix in Mailchimp to check if no APIKey or ListID is set.
+* Various other minor improvements and fixes.
+
+## Version 4.5.4 (October 11, 2019)
+* Fixed OWL Carousel conflict.
+* Fixed Theme Options > WooCommerce menu title to avoid confusion with WooCommerce plugin in the Customizer.
+* Various other minor improvements and fixes.
+
+## Version 4.5.3 (August 14, 2019)
+* Fixed: Video shortcode broken structure issue.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.5.2.2 (July 27, 2019)
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.5.2.1 (July 26, 2019)
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.5.2 (June 26, 2019)
+* Fixed: Fixed incorrect user link in the Latest Posts shortcode.
+* Fixed: Fixed query issue in Static Blocks shortcode.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.5.1 (may 28, 2019)
+* Fixed: Loading issue when there are more than 20k products.
+* Fixed: Change the deprecated function.
+* Fixed: Loading issue in the back end ( Reduce the load time and the unwanted Slow Queries ).
+* Fixed: Infobox shortcode link issue.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.5.0 (may 7, 2019)
+* Added: "Social Login" support for the theme.
+* Added: Add support for the individual banner on Product tag and categories archive page.
+* Fixed: Search element structure different in "Heade Builder" and default header for responsive view.
+* Fixed: "Product Showcase" shortcode sale product issue.
+* Fixed: Product duplicate issue for "Product Deals" shortcode.
+* Fixed: Header builder "Text Block" element issue during the saving the data.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.4.0 (april 13, 2019)
+* Fixed: Recent post shortcode author permalink issue fix.
+* Updated: Updated language files.
+* Updated: Header Builder design reconstructed with brand new UI.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.3.2 (february 26, 2019)
+* Fixed: WP Bakery row settings not working.
+* Fixed: scroll after add to cart not working.
+* Fixed: cart visibility issue for the guest user.
+* Fixed: Woo cart count translation.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.3.1 (february 18, 2019)
+* Added: Mega menu support for header builder.
+* Added: New shortcode menu list for mega menu.
+* Fixed: brand logo not showing for the older version of the plugin.
+* Fixed: HTML block VC inline CSS not working.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.3.0 (January 21, 2019)
+* Added: The dark theme layout setting in theme options.
+* Added: New shortcode "Search".
+* Added: New custom post type "Size Guide".
+* Added: The clone header layout feature for header builder.
+* Fixed: Header configuration setting radio image issue for header builder.
+* Fixed: Show categories are not working for header builder in "search" element.
+* Updated: New table structure for product size guide.
+* Updated: Header builder element design update.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.2.0 (January 09, 2019)
+* Added: Header builder for custom headers.
+* Added: "Select Custom Header" new theme option for header builder.
+* Fixed: Empty title issue for "Video" shortcode.
+* Updated: Add image source for external link in "Client" shortcode.
+* Updated: Updated language files.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.1.3 (December 24, 2018)
+* Added: New field type to select Category IDs, instead of Category Slug, where it's causing navigation error in some languages for Multi Tab Product Listing.
+* Added: External link field in video shortcode.
+* Added: External link field for the icon in infobox shortcode.
+* Added: Add external image path field in Hotspot shortcode.
+* Fixed: "Category Box" shortcode empty category issue solve.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.1.2 (December 06, 2018)
+* Added: New shortcode HTML Block added.
+* Added: Add New themify icons added.
+* Added: Add new features in shortcodes ( Ex. Add Icon, Link Style and Font Family).
+* Fixed: Breadcrumb theme setting issues fixing.
+* Fixed: VC conflict issue with the "Info Box 2" shortcode.
+* Fixed: "Callout" shortcode hover issue.
+* Updated: Set the primary color as the default color for "Title Hover color" For list shortcode.
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.1.1 (November 26, 2018)
+* Added: "Image Bottom" old hover style add.
+* Added: "Image Left" Old hover style add.
+* Updated: All shortcodes updated ( some design and shortcode options ).
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.1.0 (November 19, 2018)
+* Added: New Theme options for categories listing slider on shop page.
+* Added: Additional google fonts functionality in theme options.
+* Added: Add new social share options for blog and products sharing.
+* Added: New theme option 'Products Columns On Mobile'.
+* Added: New option for product swatch settings.
+* Added: New option for do action after add to cart.
+* Added: New option 'off canvas sidebar' for shop page.
+* Added: Sticky add to cart option for product detail page.
+* Added: Hide cart for guest user not functionality.
+* Added: 'HTML Blocks' functionalitiy( Custom post type ).
+* Added: New option "Scroll After Add To Cart" in theme option.
+* Added: New Shortcodes
+	- Progress Bar
+	- Info Box 2
+	- Section Divider
+	- Button
+	- Product Category Items
+	- Image Slider
+	- Hotspot
+	- Images Gallery
+	- Timeline Item
+	- Callout
+	- Testimonial
+	- Price Box
+	- Video
+	- Counter
+* Fixed: Default theme logo display after resetting the theme option.
+* Updated: Add new option 'Filter Type' for use 'Product Shop Filters' sidebar as a filter.
+* Updated: New option for 'Product Listing Column' on shop page.
+* Updated: New product hover styles
+* Updated: Minor code/formatting improvements and fixes.
+
+## Version 4.0.0 (November 01, 2018)
+* Updated: Reconstructed the whole plugin to reduce the load time and Various other fixes and improvements.
+* Updated: Language files.
+
+## Version 3.0.1 (October 12, 2018)
+* Fixed: WooCommerce Product importer issue fixed.
+* Fixed: Flaticon shortcode issues fix.
+* Updated: Remove extra image sizes.
+* Updated: Implemented lazy load.
+* Updated: Updated embedded importer to version 0.6.4.
+* Updated: Language files.
+* Various other fixes and improvements.
+
+## Version 3.0.0 (August 24, 2018)
+* Fixed: Fixed Custom Post Type priority issue.
+* Updated: Code changes to add support for new wizard and activation process.
+* Updated: Few other changes for better compatibility with future updates.
+* Updated: Updated language files.
+* Various other fixes and improvements.
+
+## Version 2.1.0 (August 16, 2018)
+* Fixed: MailChimp Newsletter signup issue.
+* Various other fixes and improvements.
+
+## Version 2.0.0 (June 04, 2017)
+* Added: Add an action hook after theme option import.
+* Added: Added Welcome Panel support for themes.
+* Added: Added fallback functions for VC, when it's not enabled.
+* Added: Added minified css in ACF addons.
+* Added: Added style thumbnail for Single Product Slider shortcode.
+* Fixed: Added check for  Gravity Form fix.
+* Fixed: Added translation to untranslated string.
+* Fixed: Changed field type from "Radio" to "Button Group" for some fields and fixed formatting.
+* Fixed: Fixed CPTs loader.
+* Fixed: Fixed Lineicon perameter for VC Icon Selector.
+* Fixed: Fixed array_map notice in smaple data section.
+* Fixed: Fixed blank ID attribute output casuing W3C validation error.
+* Fixed: Fixed code to call vc_map function inside WP admin only.
+* Fixed: Fixed filter name in FAQ and Jobs custom post types.
+* Fixed: Fixed issue with dynamic variables in PHP 7.
+* Fixed: Fixed magic_quotes_runtime warning for PHP below 5.4.
+* Fixed: Fixed shortcode ID outout.
+* Fixed: Fixed shortcode class outout.
+* Fixed: Fixed translation in custom post types.
+* Fixed: Fixed video background settings for singular posts.
+* Fixed: Fixed warning for unsupported PHP4 style class constructor.
+* Fixed: Moved VC field customization from plugin to theme.
+* Fixed: Moved VC template from plugin to theme.
+* Fixed: Moved translation function to plugin main file.
+* Fixed: Removed query string from FontAwesome fonts.
+* Removed : Removed extra "Design Options" from the "Single Product Slider" shortcode.
+* Updated : Updated "Image Picker", "jQuery Confirm" and ACF addons Javascript.
+* Updated : Updated ACF Font Awesome icon data.
+* Updated : Updated translation files.
+* Various other fixes and improvements.
+
+## Version 1.1.1 (September 11, 2017)
+* Fixed "Can't use method return value in write context" error in PHP version below 5.5.
+* Various other minor fixes and improvements.
+
+## Version 1.1.0 (August 28, 2017)
+* Re-constructed from base to imporove usability and flexibility with Potenza family themes.
+* Added : Added filters in CPTs.
+* Added : Added filter to ACF fieldset loader.
+* Added : Added support to load shortcode fieldsets from theme/child-theme optionally.
+* Update : Improved shrtocode loader with template support.
+* Update : Update Language files.
+* Fixed: Fixed issue "Can't use function return value in write context".
+* Fixed : Added error check while fetching terms to prevent invalid terms issue.
+* Fixed : Redux extension url issue
+* Fixed : Fixed sample-data url issue.
+* Fixed : Fixed mailchimp field issue in newsletter shortcode.
+* Fixed : Fixed blank translation string causing error in translation.
+* Various other minor fixes, code and formatting improvements in shortcodes and plugin.
+
+## Version 1.0.0 (June 07, 2017)
+* Initial release

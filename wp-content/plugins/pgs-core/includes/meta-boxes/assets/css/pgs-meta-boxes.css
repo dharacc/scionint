@@ -1,0 +1,667 @@
+.pgs-helper-custom-meta-fields .meta-field {
+    position: relative;
+    margin: 0;
+    padding: 15px 0;
+    border-top: 1px solid #eeeeee;
+}
+.pgs-helper-custom-meta-fields .meta-field:first-child {
+    border-top: 0;
+}
+
+.meta-field.meta-field-google-map .google-map-search-field {
+	margin-bottom: 10px;
+}
+
+/*------------------------*/
+/* Meta Label */
+/*------------------------*/
+.meta-field .meta-input-label {
+	font-weight: 700; 
+	margin-bottom: 7px;
+}
+.meta-field .description {
+	margin: 5px 0;
+}
+
+/*------------------------*/
+/* Meta Input */
+/*------------------------*/
+.meta-input-field input[type="text"], 
+.meta-input-field input[type="password"], 
+.meta-input-field input[type="date"], 
+.meta-input-field input[type="datetime"], 
+.meta-input-field input[type="datetime-local"], 
+.meta-input-field input[type="email"], 
+.meta-input-field input[type="month"], 
+.meta-input-field input[type="number"], 
+.meta-input-field input[type="search"], 
+.meta-input-field input[type="tel"], 
+.meta-input-field input[type="time"], 
+.meta-input-field input[type="url"], 
+.meta-input-field input[type="week"] {
+	width: 100%;
+	min-height: 40px;
+	padding: 0 12px;
+}
+.meta-input-field textarea {
+	width: 100%;
+	padding: 12px;
+}
+.meta-input-field .select2-container--default .select2-search--inline .select2-search__field {
+	min-height: 18px;
+    margin: 0;
+}
+
+/*------------------------*/
+/* Range Slide */
+/*------------------------*/
+.number-with-range input[type=range] {
+    margin: 20px 0;
+    width: 100%;
+}
+.number-with-range input[type=range]:focus {
+    outline: none;
+}
+
+/* Range Value */
+.meta-field.number-with-range .meta-input-field {
+	display: flex;
+    align-items: center;
+}
+.meta-field.number-with-range .meta-input-field .input-range-field {
+    width: 100%;
+}
+.meta-field.number-with-range .meta-input-field .input-range-value {
+	width: 70px;
+    margin-left: 15px;
+}
+
+/*------------------------*/
+/* Select Group */
+/*------------------------*/
+.meta-box-sortables .meta-input-field .meta-input-label {
+	font-weight: normal; 
+	margin-top: 10px;
+}
+.meta-box-sortables .meta-input-field select {
+    max-width: 100%;
+    width: 100%;
+    min-height: 40px;
+    padding: 0 12px;
+}
+
+/*------------------------*/
+/* Radio Button Group */
+/*------------------------*/
+.meta-input-field .radio-input-container {
+	margin-bottom: 8px;
+}
+.meta-input-button-group > label,
+.checkbox-wrapper > label {
+	padding-right: 8px;
+}
+
+/* Radio Group */
+.meta-field.meta-field-button_group .meta-input-button-group {
+    padding-left: 1px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.meta-field.meta-field-button_group .meta-input-button-group input {
+    display: none;
+}
+
+.meta-field.meta-field-button_group .meta-input-button-group label {
+    margin: 0 0 0 -1px;
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #ffffff !important;
+    color: #555 !important;
+    font-size: 13px;
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+.meta-field.meta-field-button_group .meta-input-button-group label i {
+    padding-right: 3px;
+}
+.meta-field.meta-field-button_group .meta-input-button-group label.selected {
+    height: 40px;
+    background: #0073aa !important;
+    border-color: rgb(0 115 170 / 92%) !important;
+    box-shadow: 0 3px 17px rgba(0 115 170 / 15%) !important;
+    color: #ffffff !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    line-height: 40px;
+}
+
+/* Horizontal */
+.meta-field.layout-horizontal .meta-input-field {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0 10px;
+}
+.meta-field.layout-vertical .meta-input-field .radio-input-container input,
+.meta-field.layout-horizontal .meta-input-field .radio-input-container input {
+    margin-top: 0;
+} 
+.meta-field.layout-horizontal .description {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+/* Checkbox */
+.meta-field.meta-checkbox .checkbox-wrapper .input-checkbox-outer {
+    margin-bottom: 8px;
+}
+
+/*------------------------*/
+/* Background Field */
+/*------------------------*/
+.meta-field.meta-field-background .meta-input-field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.meta-field.meta-field-background .meta-input-field .meta-input-label {
+    font-weight: normal;
+    margin-top: 10px;
+    width: 25%;
+}
+.meta-field.meta-field-background .meta-input-field select {
+    width: 74.5%;
+    max-width: inherit;
+    margin-bottom: 10px;
+}
+
+/* Image Upload */
+.meta-field.meta-field-background .meta-input-field .meta-input-label .meta-image-holder img {
+	margin-right: 15px;
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0;
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image .meta-input-label {
+	width: 25%;
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image > .meta-input-field {
+	width: 75%;
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image .meta-image-holder img {
+    margin-right: 15px;
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image .meta-input-field .meta-input-field {
+    width: auto;
+    display: block;
+    align-self: center
+}
+.meta-field.meta-field-background .meta-input-field .select-background-image .meta-input-field .meta-input-label {
+    align-self: center;
+    width: auto;
+    margin: 0;
+    margin-left: 15px;
+}
+.meta-field.meta-field-background .select-background-image .meta-background-preview-live {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*------------------------*/
+/* Image Gallery */
+/*------------------------*/
+.meta-fields-gallery-image-list {
+	display: flex;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+    margin-bottom: 5px;
+}
+.meta-fields-gallery-image-list .meta-fields-gallery-image {
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+.meta-fields-gallery-image-list .meta-fields-gallery-image .meta-field-remove-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #0b1517;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 90px;
+    width: 24px;
+    height: 23px;
+    padding-top: 1px;
+}
+.meta-fields-gallery-image-list .meta-fields-gallery-image .image-title {
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/*------------------------*/
+/* File Field */
+/*------------------------*/
+.meta-field .meta-file-info {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+}
+.meta-field .meta-file-info .meta-file-remove {
+	width: 20px;
+    height: 20px;
+    background: #323232;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.meta-field .meta-file-info strong {
+	margin-right: 10px;
+}
+.meta-field.meta-field-file .meta-field-file-button,
+.meta-field.meta-field-file .meta-field-file-button:focus {
+    font-size: 13px;
+    line-height: 2.15384615;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #0071a1;
+    outline: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    color: #0071a1;
+    background: #f3f5f6;
+}
+
+/*------------------------*/
+/* Oembed Field */
+/*------------------------*/
+.meta-field .meta-input-field.meta-input-oembed {
+	position: relative;
+}
+.meta-field .meta-input-field.meta-input-oembed .meta-oembed-input-field {
+    padding-right: 60px;
+}
+.meta-field .meta-input-field.meta-input-oembed .meta-input-actions .meta-cancel-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 0;
+    text-decoration: none;
+}
+.meta-field .meta-input-field.meta-input-oembed .meta-input-actions .meta-cancel-icon:before {
+	content: "X";
+	width: 20px;
+    height: 20px;
+    background: #323232;
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.meta-field .meta-input-field.meta-input-oembed .meta-field-oembed iframe {
+	margin-top: 10px;
+    width: 100%;
+}
+.meta-field .meta-input-field.meta-input-oembed .meta-field-oembed.loading {
+	position: absolute;
+    left: 0;
+    right: -1px;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255 255 255 / 80%);
+    background-image: url(../images/cy_loader.svg);
+	background-position: center center;
+	background-attachment: inherit;
+	background-size: 22px;
+	background-repeat: no-repeat; 
+}
+
+/*------------------------*/
+/* Radio image */
+/*------------------------*/
+.meta-field ul.meta-image-select {
+	display: flex;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+}
+.meta-field ul.meta-image-select li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.meta-field ul.meta-image-select input[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.meta-field ul.meta-image-select input[type=radio] + img {
+	cursor: pointer;
+	border: 2px solid #d9d9d9;
+	padding: 10px;
+	max-width: 70px!important;
+	border-radius: 3px;
+}
+.meta-field ul.meta-image-select input[type=radio]:checked + img {
+  border-color: #0073aa;
+}
+
+.meta-field ul.meta-image-select span {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*===================================================*/
+/* Repeater Field */
+/*===================================================*/
+.meta-field.repeater .repeater-table {
+    position: relative;
+    border-spacing: 0;
+}
+.meta-field.repeater .repeater-table,
+.meta-field.repeater .repeater-table .repeater-outer-field,
+.meta-field.repeater .repeater-table .repeater-outer-field .repeater-inner-field {
+    width: 100%;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field  th {
+    font-weight: normal;
+    text-align: left;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field {
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    padding: 0;
+    display: block;
+    width: auto;
+    margin-bottom: 0;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field.ui-sortable-helper {
+    cursor: move;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+}
+.meta-field.repeater .repeater-table .repeater-outer-field.ui-sortable-placeholder {
+    background: #f5f5f5;
+    visibility: visible !important;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field + .repeater-outer-field {
+    margin-top: -1px;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field .meta-field {
+    border: none;
+    padding: 0;
+    padding-top: 10px;
+}
+.meta-field.repeater .repeater-table .repeater-outer-field .meta-field:first-child {
+    padding-top: 0;
+}
+
+.meta-field.repeater .repeater-table .repeater-outer-field .repeater-inner-field {
+    padding: 15px;
+}
+
+/* Remove Field */
+.meta-field.repeater .repeater-table  th.remove-field {
+    background: #f5f5f5;
+    border-left: 1px solid #e5e5e5;
+    padding: 10px;    
+}
+.meta-field.repeater .repeater-table  th.remove-field .remove-row {
+    width: 22px;
+    height: 22px;
+    min-height: auto;
+    line-height: 16px;
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 50px;
+}
+.meta-field.repeater .repeater-table  th.remove-field .remove-row:hover {
+    border-color: #a10000;
+    color: #dc3232;
+}
+
+/* Repeater Loading */
+.meta-field.repeater .repeater-table.repeater-loading:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgb(255 255 255 / 80%);
+    background-image: url(../images/cy_loader.svg);
+    background-position: center center;
+    background-attachment: inherit;
+    background-size: 40px;
+    background-repeat: no-repeat; 
+}
+
+/*------------------------*/
+/* Repeater Horizontal */
+/*------------------------*/
+.meta-field.repeater.repeater-horizontal .repeater-table .repeater-outer-field {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px;
+    padding-right: 43px;
+}
+.meta-field.repeater.repeater-horizontal .repeater-outer-field .repeater-inner-field {
+    padding: 1%;
+    width: 31%;
+}
+.meta-field.repeater.repeater-horizontal .repeater-table th.remove-field {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Background Image Field */
+.meta-field.repeater.repeater-horizontal .meta-field-background .meta-input-field .meta-input-label,
+.meta-field.repeater.repeater-horizontal .meta-field-background .meta-input-field select,
+.meta-field.repeater.repeater-horizontal .meta-field-background .select-background-image > .meta-input-field {
+    width: 100%;
+}
+.meta-field.repeater.repeater-horizontal .meta-field-background .select-background-image .meta-input-field .meta-input-field {
+    margin-right: 15px;
+}
+.meta-field.repeater.repeater-horizontal .meta-field-background .select-background-image .meta-input-field .meta-input-label {
+    width: auto;
+    margin-left: 0;
+}
+
+/*===================================================*/
+/* Page Settings Options */
+/*===================================================*/
+.pgs-helper-options-meta-fields-container.pgs-option-page-settings {
+    background: #ffffff;
+    border: 1px solid #ccd0d4;
+}
+.pgs-option-page-settings .pgs-helper-custom-meta-fields .meta-field {
+    padding: 15px 15px;
+}
+
+/*------------------------*/
+/* Select Field */
+/*------------------------*/
+tr.form-field input[type="text"], 
+tr.form-field input[type="password"], 
+tr.form-field input[type="date"], 
+tr.form-field input[type="datetime"], 
+tr.form-field input[type="datetime-local"], 
+tr.form-field input[type="email"], 
+tr.form-field input[type="month"], 
+tr.form-field input[type="number"], 
+tr.form-field input[type="search"], 
+tr.form-field input[type="tel"], 
+tr.form-field input[type="time"], 
+tr.form-field input[type="url"], 
+tr.form-field input[type="week"] {
+    width: 100%;
+    min-height: 40px;
+    padding: 0 12px;
+}
+tr.form-field td textarea {
+    width: 100%;
+}
+tr.form-field td select,
+.pgs-option-page-settings .meta-input-field select {
+    width: 100%;
+    min-height: 42px;
+    line-height: 40px;
+    max-width: inherit;
+}
+tr.form-field .meta-input-field .select2-container {
+    width: 100% !important;
+}
+tr.form-field .meta-input-field .select2-container .select2-selection--single,
+.pgs-option-page-settings .meta-input-field .select2-container .select2-selection--single {
+    height: 42px;
+}
+tr.form-field .meta-input-field .select2-container--default .select2-selection--single .select2-selection__arrow,
+.pgs-option-page-settings .meta-input-field .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px;
+    width: 25px;
+}
+
+tr.form-field td .meta-field-image .meta-input-label,
+tr.form-field td .meta-field-color-picker .meta-input-label {
+    display: none;
+}
+
+/* Horizontal */
+.pgs-option-page-settings .checkbox-wrapper.layout-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0 10px;
+}
+
+/*===================================================*/
+/* Tab Position Top */
+/*===================================================*/
+.meta-field-position-top {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 10px 10px 0px;
+    border-bottom: 1px solid #ccd0d4;
+}
+.meta-field-position-top li {
+    padding: 10px 15px;
+    margin-bottom: 0;
+    border: 1px solid #323232;
+    margin-right: 6px;
+    border-bottom: none;
+    background-color: #323232;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.meta-field-position-top li:last-child {
+    margin-right: 0;
+}
+.meta-field-position-top li.active {
+    background-color: #ffffff;
+    color: #323232;
+    margin-bottom: -1px;
+    border-color: #ccd0d4;
+    border-bottom-color: #ffffff;
+}
+
+/*===================================================*/
+/* Tab Position Left */
+/*===================================================*/
+.field-position-left {
+    display: flex;
+}
+.field-position-left .meta-field-position-left {
+    background-color: #f9f9f9;
+    min-width: 218px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.field-position-left .meta-field-position-left li {
+    padding: 15px 10px;
+    border: 1px solid #ccd0d4;
+    background-color: #f1f1f1;
+    border-right: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+.field-position-left .meta-field-position-left li.active {
+    background-color: #ffffff;
+    margin-right: -1px;
+    border-right: 1px solid #ffffff;
+    position: relative;
+}
+.field-position-left .pgs-meta-fields-container {
+    padding: 10px;
+    flex-grow: 1;
+    max-width: 100%;
+    border: 1px solid #ccd0d4;
+    margin-top: 10px;
+}
+
+/* WP New Version Issue Fix */
+.block-editor .edit-post-layout .interface-interface-skeleton__content {
+    background: none;
+}
+.block-editor .edit-post-layout__metaboxes:not(:empty) .edit-post-meta-boxes-area {
+    margin: auto 0px;
+}
+.block-editor .edit-post-meta-boxes-area #poststuff h3.hndle, 
+.block-editor .edit-post-meta-boxes-area #poststuff .stuffbox > h3, 
+.block-editor .edit-post-meta-boxes-area #poststuff h2.hndle {
+    border-bottom: none;
+}
+
+.meta-box-sortables #page_sidebar_custom_meta_page_settings .meta-input-field select {
+    max-width: 88%;
+    width: 88%;
+}

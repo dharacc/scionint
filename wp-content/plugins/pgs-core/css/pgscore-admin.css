@@ -1,0 +1,225 @@
+.display-none {
+    display: none;
+}
+
+.notice.redux-message.redux-notice {
+    display: none;
+}
+
+.select2-drop {
+    font-family: 'FontAwesome', 'Open Sans', sans-serif;
+}
+
+/***********************************************
+ * Background
+ ***********************************************/
+.rey-container-background > .clearfix {
+    float: left;
+    width: 100%;
+}
+
+/*------------------------------------------------------------------
+  Visual Composer - Message Box
+-------------------------------------------------------------------*/
+.wpb_element_wrapper.vc_message_box.vc_message_box-callouts {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left-width: 5px;
+}
+
+/* Hide VC Actovation Notice */
+.vc_license-activation-notice {
+    display: none;
+}
+
+
+[data-id="predefine_loader_image"] li.redux-image-select { padding: 0; width: 10%; margin: 0 25px 25px 0 !important; }
+[data-id="predefine_loader_image"] li.redux-image-select .redux-image-select-selected { width: 100%; display: inline-block; }
+[data-id="predefine_loader_image"] li.redux-image-select img { width: 100% !important; }
+
+/***********************************************
+ * Revolution Slider
+ ***********************************************/
+/* Hide Purchase Notice */
+body.plugins-php .plugins #the-list > tr[data-slug="slider-revolution"] + .plugin-update-tr .plugin-update .update-message.installer-q-icon {
+    display: none;
+}
+
+.pgs-core-red{
+    color: #a00;
+}
+
+.pgs-core-black{
+    color: #000;
+}
+.pgs-core-green{
+    color:#429c00;
+}
+
+/***********************************************
+ * Admin Column Thumbnails
+ ***********************************************/
+.wp-list-table .column-teams_thumbnail,
+.wp-list-table .column-testimonials_thumbnail,
+.wp-list-table .column-portfolio_thumbnail {
+    width: 70px;
+}
+
+/***********************************************
+ * Range Field
+ ***********************************************/
+.save_post_smart_product_box_cls{
+    padding: 10px 40px 10px 40px;
+    border: 2px solid transparent;
+    background: #47a92f;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input#save_post_smart_product_box_id:hover {
+    background: #4d923d !important;
+}
+.outer-smart-product-box{
+    margin-left: 10px;
+}
+
+/* The container */
+.wp_smart_product_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.wp_smart_product_container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.43);
+    border: 2px solid #a2a2a2;
+}
+
+/* On mouse-over, add a grey background color */
+.wp_smart_product_container:hover input ~ .checkmark {
+    background-color: rgba(146, 141, 141, 0.43);
+}
+
+/* When the checkbox is checked, add a blue background */
+.wp_smart_product_container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.wp_smart_product_container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.wp_smart_product_container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#smart-product-metabox-list li {
+    float: left;
+    width: 150px;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    cursor: move;
+    /* height: 190px; */
+    height: 150px;
+  }
+
+.form-table #smart-product-metabox #smart-product-metabox-list li {
+    border: 1px solid #d5d5d5;
+    position: relative;
+}
+
+.form-table #smart-product-metabox #smart-product-metabox-list li .remove-image.button,
+.form-table #smart-product-metabox #smart-product-metabox-list li .change-image.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    line-height: normal;
+    background: #ffffff;
+    border: 1px solid #444;
+}
+
+.form-table #smart-product-metabox #smart-product-metabox-list li .remove-image.button:hover,
+.form-table #smart-product-metabox #smart-product-metabox-list li .change-image.button:hover {
+    color: #f00;
+}
+
+.form-table #smart-product-metabox #smart-product-metabox-list li .change-image.button {
+    top:45px;
+}
+
+.form-table #smart-product-metabox #smart-product-metabox-list li .product_title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(213, 213, 213, 0.9);
+    padding: 8px;
+}
+
+.redux-container-image_select ul.redux-image-select .pgs-icon-large {
+    padding: 5px;
+    height: 30px;
+}
+
+/***********************************************
+ * Meta Field Group Active
+ ***********************************************/
+.postbox-container .meta-field.meta-field-button_group .meta-input-button-group label.selected {
+    background: linear-gradient(135deg,#00c7b1 0,#00de8c 100%)!important;
+    border-color: #00da93!important;
+    box-shadow: 0 3px 17px rgba(0,201,172,.2)!important;
+    color: #fff!important;
+    text-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+
+.admin-color-fresh .redux-container .ui-buttonset .ui-button > .ui-checkboxradio-icon {
+    display: none;
+}

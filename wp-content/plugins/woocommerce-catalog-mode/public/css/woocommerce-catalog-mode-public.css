@@ -1,0 +1,295 @@
+/**
+ * Public CSS
+ */
+
+.variations_form {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.variations select {
+  display: block;
+}
+
+.woocommerce-catalog-mode-variations {
+  margin-bottom: 20px;
+}
+
+.woocommerce-catalog-mode-variations td, .woocommerce-catalog-mode-variations th {
+  padding: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.woocommerce-catalog-mode-variations th {
+  font-weight: bold;
+}
+
+.modal-open #enquiryModal{
+  overflow: hidden;
+}
+#enquiryModal.modal {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999999999;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.modal-open #enquiryModal.modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#enquiryModal .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+  height: 100%;
+}
+
+#enquiryModal .modal-content {
+  height: 90%;
+  overflow: auto;
+}
+
+#enquiryModal .modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#enquiryModal .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#enquiryModal .modal-header .close {
+  margin-top: -2px;
+}
+#enquiryModal .modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+#enquiryModal .modal-body {
+  position: relative;
+  padding: 15px;
+}
+#enquiryModal .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#enquiryModal .modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+#enquiryModal .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#enquiryModal .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+#enquiryModal .modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 768px) {
+  #enquiryModal .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #enquiryModal .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  #enquiryModal .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #enquiryModal .modal-lg {
+    width: 900px;
+  }
+}
+
+#sendEnquiry {
+  margin: 0px 0px 10px;
+}
+
+#enquiryModal .modal-header .close {
+  float: right;
+}
+/** Enquiry Cart Modal */
+#enquiryCartModal.modal {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999999999;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.modal-open #enquiryCartModal.modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#enquiryCartModal .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+#enquiryCartModal .modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+
+#enquiryModal .modal-dialog,
+#enquiryCartModal .modal-dialog {
+  position: relative;
+
+  height: 100%;
+}
+
+#enquiryModal .modal-content, #enquiryCartModal .modal-content {
+  max-height: 90%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#enquiryCartModal .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#enquiryCartModal .modal-header .close {
+  margin-top: -2px;
+}
+#enquiryCartModal .modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+#enquiryCartModal .modal-body {
+  position: relative;
+  padding: 15px;
+}
+#enquiryCartModal .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#enquiryCartModal .modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+#enquiryCartModal .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#enquiryCartModal .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+#enquiryCartModal .modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 768px) {
+  #enquiryCartModal .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #enquiryCartModal .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  #enquiryCartModal .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #enquiryCartModal .modal-lg {
+    width: 900px;
+  }
+}
+
+#sendEnquiryCart {
+  margin: 0px 0px 10px;
+}
+
+#enquiryCartModal .modal-header .close {
+  float: right;
+}
+
+.modal-open #enquiryModal,
+.modal-open #enquiryCartModal {
+    opacity: 1;
+}
+
+#enquiryCartModal.fade,
+#enquiryModal.fade {
+    opacity: 1 !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    top: 0 !important;
+}
+
+.modal-backdrop.fade {
+    opacity: 0.3; 
+}

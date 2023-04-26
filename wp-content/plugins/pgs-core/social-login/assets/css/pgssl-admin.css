@@ -1,0 +1,145 @@
+.pgssl-settings-meta-box-wrap .pgssl-custom-integration-pre {
+	border-radius: 3px;
+	padding: 10px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+.pgssl-settings-meta-box-wrap .pgssl-custom-integration-pre.pgssl-custom-integration-pre-action {
+	background-color: #FFFFE0;
+	border: 1px solid #E6DB55;
+}
+
+.pgssl-settings-meta-box-wrap .pgssl-custom-integration-pre.pgssl-custom-integration-pre-shortcode {
+	background-color: #EDEFF4;
+	border: 1px solid #6B84B4;
+}
+
+
+.pgssl-settings-meta-box-wrap .postbox .new-provider-list {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.pgssl-settings-meta-box-wrap .postbox .new-provider-list a {
+	text-decoration: none;
+}
+
+.pgssl-settings-meta-box-wrap .postbox .new-provider-list a .pgssl-nework-setup-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .hndle {
+	padding-left: 32px;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .hndle:before {
+	content: "\f013";
+	display: block;
+	position: absolute;
+	width: 15px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	left: 12px;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-facebook .hndle::before,
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-google .hndle::before,
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-twitter .hndle::before {
+	font-family: "Font Awesome 5 Brands";
+}
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-facebook .hndle::before {
+	content: "\f39e";
+}
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-google .hndle::before {
+	content: "\f1a0";
+}
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox.pgssl-postbox-twitter .hndle::before {
+	content: "\f099";
+}
+
+/*
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-nework-setup-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+*/
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-text {
+	width: 100%;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper {
+	float: left;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper .pgssl-field-radio-button {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 2.15384615;
+	min-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #007cba;
+	-webkit-appearance: none;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper .pgssl-field-radio-button-wrapper {
+	float: left;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper .pgssl-field-radio-button-wrapper:first-child .pgssl-field-radio-button {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper .pgssl-field-radio-button-wrapper:last-child .pgssl-field-radio-button {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper .pgssl-field-radio-button:hover {
+	background: #f1f1f1;
+	border-color: #0071a1;
+	color: #016087;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper input:checked ~ .pgssl-field-radio-button {
+	background: #007cba;
+	/* border-color: #007cba; */
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.pgssl-settings-meta-box-wrap #poststuff .postbox.pgssl-postbox .pgssl-field.pgssl-field-type-radio .pgssl-field-radio-buttonset-wrapper input:checked ~ .pgssl-field-radio-button:hover {
+	background: #0071a1;
+	border-color: #0071a1;
+	color: #fff;
+}
+
+#pgssl_div_warn {
+	padding:10px;
+	border:1px solid #ddd;
+	background-color:#fff;
+	width:55%;
+	margin:30px auto 0;
+}

@@ -1,0 +1,57 @@
+<?php
+return array(
+	'title'  => esc_html__( 'Custom CSS/JS', 'pgs-core' ),
+	'id'     => 'editor-ace',
+	'icon'   => 'fa fa-code',
+	'fields' => array(
+		array(
+			'id'       => 'custom_css',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom CSS', 'pgs-core' ),
+			'mode'     => 'css',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your CSS code here.', 'pgs-core' ),
+		),
+		array(
+			'id'       => 'custom_css_desktop',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom CSS for desktop', 'pgs-core' ),
+			'mode'     => 'css',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your CSS code here.', 'pgs-core' ),
+		),
+		array(
+			'id'       => 'custom_css_tab_landscape',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom CSS for tablet landscape', 'pgs-core' ),
+			'mode'     => 'css',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your CSS code here.', 'pgs-core' ),
+		),
+		array(
+			'id'       => 'custom_css_tab_portrait',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom CSS for tablet portait', 'pgs-core' ),
+			'mode'     => 'css',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your CSS code here.', 'pgs-core' ),
+		),
+		array(
+			'id'       => 'custom_css_mobile',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom CSS for mobile', 'pgs-core' ),
+			'mode'     => 'css',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your CSS code here.', 'pgs-core' ),
+		),
+		array(
+			'id'       => 'custom_js',
+			'type'     => 'ace_editor',
+			'title'    => esc_html__( 'Custom JS', 'pgs-core' ),
+			'mode'     => 'javascript',
+			'theme'    => 'chrome',
+			'subtitle' => esc_html__( 'Add your JS code here.', 'pgs-core' ),
+			'default'  => "jQuery(document).ready(function($){\n\n});",
+		),
+	),
+);

@@ -1,0 +1,19 @@
+.notice.notice-info.pie-admin-christmas.is-dismissible, .notice.notice-info.pie-admin-new-year.is-dismissible{
+    display: flex;
+    border-left-color: #c12526;
+    padding: 10px 10px 10px 20px;
+    align-items: center;
+}
+.notice.notice-info.pie-admin-christmas.is-dismissible .launch-icon, .notice.notice-info.pie-admin-new-year.is-dismissible .launch-icon{
+    margin-right: 2%;
+}
+.notice.notice-info.pie-admin-christmas.is-dismissible .launch-icon img, .notice.notice-info.pie-admin-new-year.is-dismissible .launch-icon img{
+    width: 80%;
+}
+.notice.notice-info.pie-admin-christmas.is-dismissible .button.button-primary, .notice.notice-info.pie-admin-new-year.is-dismissible .button.button-primary {
+    background: #c12526;
+    border: none;
+}
+.notice.notice-info.pie-admin-christmas.is-dismissible p:not(:last-child), .notice.notice-info.pie-admin-new-year.is-dismissible p:not(:last-child){
+    margin-bottom: 0px;
+}

@@ -1,0 +1,8 @@
+#addtag p.submit{
+    float: left;
+}
+
+#addtag .import-csv{
+    float: left;
+    margin-left: 10px;
+}

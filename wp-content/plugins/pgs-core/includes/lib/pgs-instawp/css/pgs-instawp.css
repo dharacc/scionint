@@ -1,0 +1,184 @@
+.wrap.pgs-instawp-wrap .tab-content .form-table th {
+	padding: 20px 10px;
+}
+
+.pgs-instawp-wrap .tab-content-wrapper .tab-content .pgs-instawp-separator {
+	background: #ccc;
+	border: 0;
+	color: #ccc;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	width: 99%;
+}
+.pgs-instawp-wrap .tab-content-wrapper .tab-content .form-table .pgs-instawp-field.pgs-instawp-field-text-btn {
+	margin-left: 5px;
+	text-decoration: none;
+}
+.pgs-instawp-wrap .tab-content-wrapper .tab-content .form-table .pgs-instawp-field.pgs-instawp-field-text-btn:hover {
+	text-decoration: underline;
+}
+.pgs-instawp-wrap .tab-content-wrapper .tab-content .form-table input.color-picker {
+	max-width: 100px;
+}
+
+.pgs-instawp-wrap .tab-content-wrapper .tab-content .form-table .pgs-instawp-field.pgs-instawp-field-iframe iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.pgs-instawp-field.pgs-instawp-field-iframe[data-is_video="yes"] {
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+	position: relative;
+}
+
+.pgs-instawp-field.pgs-instawp-field-iframe[data-is_video="yes"] .iframe-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pgs-instawp-alert {
+	position: relative;
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	font-size: 15px;
+}
+
+.pgs-instawp-alert-heading {
+	color: inherit;
+}
+
+.pgs-instawp-alert a {
+	font-weight: 600;
+}
+
+.pgs-instawp-alert-dismissible {
+	padding-right: 4rem;
+}
+
+.pgs-instawp-alert-dismissible .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.75rem 1.25rem;
+	color: inherit;
+}
+
+.pgs-instawp-alert-primary {
+	color: #004085;
+	background-color: #cce5ff;
+	border-color: #b8daff;
+}
+
+.pgs-instawp-alert-primary hr {
+	border-top-color: #9fcdff;
+}
+
+.pgs-instawp-alert-primary a {
+	color: #002752;
+}
+
+.pgs-instawp-alert-secondary {
+	color: #383d41;
+	background-color: #e2e3e5;
+	border-color: #d6d8db;
+}
+
+.pgs-instawp-alert-secondary hr {
+	border-top-color: #c8cbcf;
+}
+
+.pgs-instawp-alert-secondary a {
+	color: #202326;
+}
+
+.pgs-instawp-alert-success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+.pgs-instawp-alert-success hr {
+	border-top-color: #b1dfbb;
+}
+
+.pgs-instawp-alert-success a {
+	color: #0b2e13;
+}
+
+.pgs-instawp-alert-info {
+	color: #0c5460;
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+
+.pgs-instawp-alert-info hr {
+	border-top-color: #abdde5;
+}
+
+.pgs-instawp-alert-info a {
+	color: #062c33;
+}
+
+.pgs-instawp-alert-warning {
+	color: #856404;
+	background-color: #fff3cd;
+	border-color: #ffeeba;
+}
+
+.pgs-instawp-alert-warning hr {
+	border-top-color: #ffe8a1;
+}
+
+.pgs-instawp-alert-warning a {
+	color: #533f03;
+}
+
+.pgs-instawp-alert-danger {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+
+.pgs-instawp-alert-danger hr {
+	border-top-color: #f1b0b7;
+}
+
+.pgs-instawp-alert-danger a {
+	color: #491217;
+}
+
+.pgs-instawp-alert-light {
+	color: #818182;
+	background-color: #fefefe;
+	border-color: #fdfdfe;
+}
+
+.pgs-instawp-alert-light hr {
+	border-top-color: #ececf6;
+}
+
+.pgs-instawp-alert-light a {
+	color: #686868;
+}
+
+.pgs-instawp-alert-dark {
+	color: #1b1e21;
+	background-color: #d6d8d9;
+	border-color: #c6c8ca;
+}
+
+.pgs-instawp-alert-dark hr {
+	border-top-color: #b9bbbe;
+}
+
+.pgs-instawp-alert-dark a {
+	color: #040505;
+}

@@ -1,0 +1,433 @@
+/*
+ * Param : Heading
+ * */
+.wpb_el_type_pgscore_heading .pgscore_heading-title,
+.wpb_el_type_pgscore_heading .pgscore_heading-subtitle{
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.wpb_el_type_pgscore_heading h1.pgscore_heading-title {font-size: 30px;line-height: 30px;}
+.wpb_el_type_pgscore_heading h2.pgscore_heading-title {font-size: 27px;line-height: 27px;}
+.wpb_el_type_pgscore_heading h3.pgscore_heading-title {font-size: 24px;line-height: 24px;}
+.wpb_el_type_pgscore_heading h4.pgscore_heading-title {font-size: 21px;line-height: 21px;}
+.wpb_el_type_pgscore_heading h5.pgscore_heading-title {font-size: 17px;line-height: 17px;}
+.wpb_el_type_pgscore_heading h6.pgscore_heading-title {font-size: 14px;line-height: 14px;}
+
+.wpb_el_type_pgscore_heading h1.pgscore_heading-subtitle {font-size: 26px;line-height: 26px;}
+.wpb_el_type_pgscore_heading h2.pgscore_heading-subtitle {font-size: 23px;line-height: 23px;}
+.wpb_el_type_pgscore_heading h3.pgscore_heading-subtitle {font-size: 20px;line-height: 20px;}
+.wpb_el_type_pgscore_heading h4.pgscore_heading-subtitle {font-size: 17px;line-height: 17px;}
+.wpb_el_type_pgscore_heading h5.pgscore_heading-subtitle {font-size: 14px;line-height: 14px;}
+.wpb_el_type_pgscore_heading h6.pgscore_heading-subtitle {font-size: 11px;line-height: 11px;}
+
+/*
+ * Admin Label
+ * */
+.pgscore_element_wrapper .vc_admin_label {
+	display: block !important;
+}
+.pgscore_element_wrapper .vc_admin_label label {
+  color: #444;
+  font-weight: bold;
+}
+
+/*
+ * Param Group Formatting
+ * */
+.vc_param_group-list {
+	margin-top: 0;
+}
+.vc_param.wpb_vc_row {
+	border: 1px solid #ccc;
+	margin-bottom: 0;
+}
+.vc_param.wpb_vc_row + .vc_param.wpb_vc_row {
+	border-top: 0 none;
+}
+.vc_param.wpb_vc_row .wpb_vc_column.wpb_sortable {
+	margin-bottom: 0;
+}
+.vc_param-group-admin-labels {
+  font-size: 12px;
+  font-style: normal;
+}
+.vc_param-group-admin-labels label {
+  color: #888;
+  font-weight: bold;
+}
+
+
+/*
+ * Param : pgscore_html
+ * */
+.vc_edit_form_elements .vc_column.vc_wrapper-param-type-pgscore_html,
+.vc_edit_form_elements .vc_column-with-padding.vc_wrapper-param-type-pgscore_html {
+  font-size: 12px;
+  padding-top: 0 !important;
+}
+.vc_wrapper-param-type-pgscore_html .wpb_element_label {
+  display: none;
+}
+
+/*
+ * Image Select field param styles
+ */
+ul.thumbnails.image_picker_selector {
+	display: flex;
+	flex-wrap: wrap;
+}
+ul.thumbnails.image_picker_selector li {
+	width: 150px;
+}
+.pgscore_radio_image2_small ul.thumbnails.image_picker_selector li {
+	width: 115px;
+}
+ul.thumbnails.image_picker_selector li .thumbnail {
+	background-color: #ededed;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100% - 12px);
+	height: calc(100% - 12px);
+}
+ul.thumbnails.image_picker_selector li .thumbnail img {
+	width: 100%;
+}
+ul.thumbnails.image_picker_selector li .thumbnail p {
+	text-align: center;
+	color: #353535;
+	margin-bottom: 0;
+	margin-top: auto;
+	padding-top: 5px;
+}
+ul.thumbnails.image_picker_selector li .thumbnail.selected p {
+	color: #fff;
+}
+
+/**************************************************************
+ * 
+ * VC - Radio Image
+ * 
+ **************************************************************/
+ul.thumbnails.image_picker_selector li:last-child {
+	margin-right: 0;
+}
+
+/*******************************************************************
+	PGSCore Range Slider
+*******************************************************************/
+.vc_wrapper-param-type-pgscore_range_slider {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider *,
+.vc_wrapper-param-type-pgscore_range_slider *:before,
+.vc_wrapper-param-type-pgscore_range_slider *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-range-slider-wrap {
+	display: flex;
+	align-items: center;
+	margin-top: -7px;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider {
+	display: inline-block;
+	width: 100%;
+	border-radius: 3px;
+	background-color: #e9e9e9;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider .pgscore-range-slider {
+	position: relative;
+	height: 10px;
+	border-radius: 3px;
+	border: 0;
+	background-color: #e9e9e9;
+	margin: 0 10px;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider .pgscore-range-slider .ui-slider-handle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	margin-left: -12px;
+	border-radius: 3px;
+	width: 26px;
+	height: 24px;
+	margin-top: -7px;
+	border: 0;
+	background: #666666 !important;
+}
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider .ui-slider-handle:after {
+	width: 26px;
+	height: 24px;
+	line-height: 24px;
+	font-family: 'Dashicons';
+	font-size: 20px;
+	display: block;
+	color: #f9f9f9;
+	content: "\f333";
+	text-align: center;
+	cursor: pointer;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-value {
+	display: inline-block;
+	width: 80px;
+	height: 32px;
+	text-align: center;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .ui-slider-range {
+	height: 100%;
+	margin-left: -10px;
+	background-color: #73a9ff;
+	border-radius: 3px 0 0 3px;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-unit {
+	display: inline-block;
+	width: 60px;
+	padding-left: 10px;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider.pgscore-hide-input {
+	width: 100%;
+}
+
+.vc_wrapper-param-type-pgscore_range_slider .pgscore-vc-range-slider.pgscore-hide-input + .pgscore-value {
+	display: none;
+}
+
+/*******************************************************************
+	Visual Composer : CSS Box
+*******************************************************************/
+.vc_css-editor .vc_layout-onion .vc_margin {
+	background-color: #f1ff83;
+}
+.vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding {
+	background-color: #877ad6 !important;
+}
+.vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding label {
+	color: #fff;
+}
+/*******************************************************************
+	Banner Padding Custom Formatting
+*******************************************************************/
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_settings{
+	display: none;
+}
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin{
+	border: none;
+}
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border{
+	margin: 0px;
+	border: none;
+}
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin > label,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin > .vc_top,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin > .vc_right,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin > .vc_left,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin > .vc_bottom,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border > label,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border > .vc_top,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border > .vc_right,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border > .vc_left,
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border > .vc_bottom{
+	display: none;
+}
+.banner_css_wrap .edit_form_line .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding {
+	background-color: #fff !important;
+	margin: 0;
+}
+.banner_css_wrap .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding .vc_content i {
+	background: none;
+	width: 100%;
+}
+.banner_css_wrap .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding .vc_content {
+	height: 70px;
+	line-height: 50px;
+	background-color: #333745;
+}
+.banner_css_wrap .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding .vc_content i::before {
+	content: "Banner Content";
+	font-size: 15px;
+	font-style: initial;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+/*******************************************************************
+	Visual Composer Number Min Max
+*******************************************************************/
+.pgscore_number_min_max_input_group {
+    border-collapse: separate;
+    display: table;
+    position: relative;
+}
+.pgscore_number_min_max_input_group_addon {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center;
+}
+.pgscore_number_min_max_input_group_addon {
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;
+}
+.pgscore_number_min_max_input_group .pgscore_number_min_max_input,
+.pgscore_number_min_max_input_group_addon{
+    display: table-cell;
+}
+.pgscore_number_min_max_input_group .pgscore_number_min_max_input {
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.pgscore_number_min_max_input {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.pgscore_number_min_max_input_group_addon:last-child {
+    border-left: 0 none;
+}
+.pgscore_number_min_max_input_group_addon:first-child {
+    border-right: 0 none;
+}
+
+/* VC : Fix for custom column items not adding padding top */
+.vc_edit_form_elements .vc_column.vc_edit-form-hidden-field-wrapper + .vc_column.pgscore-pt-15,
+.vc_edit_form_elements .vc_column.pgscore-pt-15 {
+	padding-top: 15px;
+}
+
+/**************************************************************
+ * 
+ * Field Type : pgscore_radio
+ * 
+ **************************************************************/
+.wpb_el_type_pgscore_radio .pgscore_radio-wrap {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.wpb_el_type_pgscore_radio .vc_radio-label {
+	margin-right: 5px;
+}
+.wpb_el_type_pgscore_radio .wpb-radio {
+	width: auto;
+}
+.wpb_el_type_pgscore_radio .wpb-radio.pgscore_radio_label_only {
+	display: none;
+}
+.wpb_el_type_pgscore_radio .wpb-radio.pgscore_radio_label_only + .pgscore_radio-title {
+  background-color: #ededed;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  color: #353535;
+  display: inline-block;
+  padding: 6px 12px;
+}
+.wpb_el_type_pgscore_radio .wpb-radio.pgscore_radio_label_only:checked + .pgscore_radio-title {
+  background-color: #0088cc;
+  border-color: #aaa;
+  color: #fff;
+}
+
+/* Visual Composer - Select field fix */
+.vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value.wpb-input.wpb-select {
+	margin: 0;
+}
+.vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value.wpb-input.wpb-select > option {
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+/* Hotsport Shortcode */
+.pgscore-position .list_items_position {
+	width: 20% !important;
+}
+.pgscore-position .set-position-button {	
+    box-shadow: none !important;
+    border: 0 !important;
+    height: 35px;
+    margin-left: 20px;
+    top: 1px;
+    position: relative;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.pgscore-position .hotspot-image-wrapper {
+	display:inline-block;
+	margin-top: 15px;
+}
+.pgscore-position .pgscore-hotspot-cover {
+	position: relative;
+	overflow: hidden;
+}
+.pgscore-position .pgscore-hotspot-cover img {
+	max-width: 100%;
+}
+.pgscore-position .pgscore-hotspot-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.pgscore-position .pgscore-hotspot-pointer {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 6px;
+    height: 6px;
+	margin-top: -13px;
+    margin-left: -13px;
+    background: #333333;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    z-index: 3;
+    background-clip: padding-box;	
+}
+
+/**************************************************************
+ * 
+ * Field Type : pgscore_notice
+ * 
+ **************************************************************/
+.wpb_el_type_pgscore_notice .wpb_element_label {
+	display: none;
+}
+.pgscore_notice_wrapper.notice {
+	margin-left: 0;
+}
+.pgscore_notice_heading {
+	margin: .5em 0;
+}

@@ -1,0 +1,22 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_catalog_mode_options">
+		    <key name="singleProductButtonContactform" />
+			<key name="customFreePriceText" />
+			<key name="loopButtonText" />
+			<key name="loopButtonActionURL" />
+			<key name="singleProductButtonText" />
+			<key name="singleProductButtonActionURL" />
+			<key name="singleProductButtonModalTitle" />
+			<key name="singleProductButtonContactform" />
+			<key name="excludeProductCategories" />
+			<key name="excludeProducts" />	
+			<key name="enquiryCartBasketBtnText" />
+			<key name="enquiryCartBtnText" />
+			<key name="enquiryCartModalTitle" />
+			<key name="enquiryCartContactformProductsField" />
+			<key name="enquiryCartBtnActionURL" />
+			<key name="enquiryCartContactform" />
+		</key> 
+	</admin-texts>
+</wpml-config>
